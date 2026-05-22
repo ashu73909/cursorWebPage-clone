@@ -84,6 +84,9 @@ header{
     font-size:x-large;
     font-weight: normal;
 }
+.hero-top{
+    max-width:600px;
+}
 /*main container*/
 .parent-1 {
     position: relative;
