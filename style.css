@@ -2,6 +2,8 @@
     --text-color:#F7F7F4;
     --accent-color:rgb(21, 17, 1);
     --accent-hover-color:rgb(146, 229, 146);
+    --container-width: 85%;
+    --container-max-width: 1400px;
 }
 *{
     margin: 0;
@@ -467,4 +469,17 @@ header{
     height: 14px;
     stroke: #ffffff;/*force white stroke*/
     fill: none;
+}
+.hero,
+.feature,
+.log,
+.imageCont,
+.testimonials,
+.GcardSection,
+.navBar,
+.footer-Content,
+.copy-right{
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    margin-inline: auto;
 }
