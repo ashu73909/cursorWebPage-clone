@@ -303,6 +303,9 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 600px;
+    background-color: none;
+}
+.Rhighlights-wrapper{
     background-color: #1a1a12;
 }
 .ele-1{
@@ -481,6 +484,7 @@ header{
 .GcardSection,
 .navBar,
 .footer-Content,
+.Rhighlights,
 .copy-right{
     width: var(--container-width);
     max-width: var(--container-max-width);
