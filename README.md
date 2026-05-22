@@ -1,133 +1,151 @@
-Cursor Website Clone (HTML + CSS)
+# Cursor Website Clone (HTML + CSS)
 
-A static clone of the Cursor website built using pure HTML and CSS to strengthen frontend fundamentals.
-This project focuses on layout building, positioning, and recreating a real-world UI without using frameworks or component libraries.
+A static clone of the Cursor website built using pure HTML and CSS.
 
-About the Project
+The project was created to strengthen frontend fundamentals by recreating a production-style SaaS landing page without using JavaScript frameworks, component libraries, or CSS frameworks. The focus was on understanding layout systems, positioning, responsiveness concepts, and modern UI structure using only core web technologies.
 
-This clone was created as part of foundational frontend practice. The goal was to understand how complex modern websites are structured and styled using only core web technologies.
-No JavaScript frameworks, no UI libraries — just clean HTML and CSS.
+## Live Demo
 
-Tech Stack
+https://ashu73909.github.io/cursorWebPage-clone/
 
+## Repository
 
+https://github.com/ashu73909/cursorWebPage-clone
 
--> HTML5
+## Tech Stack
 
--> CSS3 (Flexbox + Grid)
--> Pure CSS styling
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- CSS Variables
+- Git & GitHub
+- GitHub Pages
 
--> GitHub Pages for deployment
+## Features
 
+- Multi-section landing page
+- Flexbox and Grid based layouts
+- Responsive container architecture
+- Hero section with CTA
+- Company logo showcase section
+- Feature sections with text and images
+- Testimonials section
+- Changelog section
+- About/Team section
+- Recent Highlights section
+- Call-to-action section
+- Footer with multi-column navigation
+- Consistent dark theme styling
 
-Features
-
-
--> Fully structured multi-section landing page
--> Flexbox and Grid-based layouts
--> Overlay positioning
--> Testimonials section
--> Feature cards
--> Navigation bar and footer
--> Real-world UI replication practice
-
-Recreated Sections
+## Recreated Sections
 
 The following sections from the original Cursor website were recreated:
 
+- Navigation Bar
+- Hero Section
+- Trusted Companies Section
+- Feature Sections
+- Testimonials Section
+- Stay on the Frontier Cards Section
+- Changelog Section
+- About / Team Section
+- Recent Highlights Section
+- Call-to-Action Section
+- Footer Section
 
--> Navigation bar with logo, menu items, and action buttons
+## Layout Improvements & Learning Summary
 
--> Hero section with headline and call-to-action button
+While recreating the Cursor website, I explored how professional SaaS landing pages maintain visual balance across different screen sizes.
 
--> Trusted companies/logo grid section
+### Initial Challenge
 
--> Feature sections with text and images
+Most sections originally relied on percentage-based widths. While this worked on standard screens, content could continue expanding on very large displays, reducing readability and making the layout feel less polished.
 
--> Testimonials section
+### Improvements Made
 
--> Cards section (Stay on the frontier)
+- Introduced reusable CSS variables for layout management
+- Created a shared container sizing system
+- Added `max-width` constraints to prevent content from growing indefinitely on large screens
+- Centralized container styling for easier maintenance
+- Studied layout patterns used by production SaaS websites such as Cursor and Mintlify
+- Planned wrapper-container architecture for full-width background sections while keeping content centered
 
--> Changelog section
+### Outcome
 
--> About/Team section
+- More consistent spacing across sections
+- Better readability on large monitors
+- Cleaner and more maintainable CSS
+- Improved understanding of responsive layout systems
+- Practical experience with production-style container architecture
 
--> Recent highlights section
-
--> Call-to-action section (Try Cursor now)
-
--> Footer with multi-column links and controls
-
-
-Fonts Used
+## Fonts Used
 
 Primary font stack:
 
+```css
 Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif
-Inter is commonly used in modern web interfaces for readability and clean design.
+```
 
-Colors Used
+Inter is commonly used in modern interfaces because of its readability and clean appearance.
 
-Main colors were chosen to closely match the original Cursor website’s dark theme.
+## Color Palette
 
-Primary Colors
+### Primary Colors
 
+- Background: `rgb(21, 17, 1)`
+- Primary Text: `#F7F7F4`
+- Accent Color: `#F54E00`
 
--> Background color: rgb(21, 17, 1)
+### Secondary Colors
 
--> Text color: #F7F7F4
+- Card Background: `#1A1A12`
+- Border Color: `rgba(255, 255, 255, 0.08)`
+- Muted Text: Reduced opacity of primary text
 
--> Accent color (links/highlights): #F54E00
+## What I Learned
 
-Secondary Colors
+- Structuring large HTML layouts
+- Building reusable layout systems
+- CSS Variables for maintainability
+- Advanced CSS positioning techniques
+- Real-world Flexbox usage
+- Real-world CSS Grid usage
+- Container and max-width architecture
+- Replicating production-level UI designs
+- Organizing assets and project structure
+- Deploying static websites using GitHub Pages
 
+## Project Structure
 
--> Card background: #1a1a12
+```text
+cursorWebPage-clone/
+│
+├── index.html
+├── style.css
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+└── README.md
+```
 
--> Subtle borders: rgba(255, 255, 255, 0.08)
+## Future Improvements
 
--> Muted text: lower opacity of primary text color
+- Complete responsive support using media queries
+- Mobile navigation menu
+- Accessibility improvements
+- Performance optimization
+- Better image optimization
+- Additional hover and scroll animations
+- Code refactoring and component-style organization
+- Dark/Light theme toggle
+- Pixel-perfect responsiveness across devices
 
+## Screenshots
 
-Live Demo
-https://ashu73909.github.io/cursorWebPage-clone/
+<img width="1919" height="906" alt="Cursor Clone Screenshot" src="https://github.com/user-attachments/assets/80c64bce-9e9f-4598-81d0-297e5da2bb0f" />
 
-Repository
-https://github.com/ashu73909/cursorWebPage-clone/tree/main
+## Author
 
-What I Learned
-
-
--> Structuring large HTML layouts
-
--> Advanced CSS positioning
-
--> Grid and Flexbox usage in real scenarios
-
--> Replicating production-level UI
-
--> Organizing assets and project structure
-
--> Deploying static sites using GitHub Pages
-
-
-Future Improvements
-
-
--> Add full responsiveness using media queries
-
--> Improve accessibility
-
--> Optimize images and performance
-
--> Add animations and interactions
-
--> Refactor code for scalability
-
-
-Screenshots
-<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/80c64bce-9e9f-4598-81d0-297e5da2bb0f" />
-
-Author
-
-Ashutosh Panday
+**Ashutosh Panday**
